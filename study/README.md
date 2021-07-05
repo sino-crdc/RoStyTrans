@@ -38,7 +38,7 @@ Find the file in WeChat for more details.
 - [x] [Deep Photo Style Transfer](https://arxiv.org/abs/1703.07511)
 - [x] [RepMLP: Re-parameterizing Convolutions into Fully-connected Layers for Image Recognition](https://arxiv.org/abs/2105.01883)
 
-:sparkles: ZiZhao Yuan
+:sparkles: Zizhao Yuan
 
 - [x] [Facial Attribute Transformers for Precise and Robust Makeup Transfer](https://arxiv.org/abs/2104.02894)
 - [x] [Unsupervised representation learning with deep convolutional generative adversarial networks](https://arxiv.org/pdf/1511.06434.pdf)
