@@ -15,7 +15,7 @@ Find the file in WeChat for more details.
 - Filter Extraction
 - Image Generation
 
-:sparkles: Ruiqi Liu
+:sparkles: Ruiqi Li
 - Semantic Segmentation : alignment, RoI extraction, etc.
 - Discriminator Design
 - Fondamental Image Processing
@@ -43,7 +43,7 @@ Find the file in WeChat for more details.
 - [x] [Facial Attribute Transformers for Precise and Robust Makeup Transfer](https://arxiv.org/abs/2104.02894)
 - [x] [Unsupervised representation learning with deep convolutional generative adversarial networks](https://arxiv.org/pdf/1511.06434.pdf)
 
-:sparkles: Ruiqi Liu
+:sparkles: Ruiqi Li
 
 - [x] [Representation Learning for Clustering via Building Consensus](https://arxiv.org/abs/2105.01289)
 - [x] [Fully convolutional networks for semantic segmentation](https://arxiv.org/pdf/1411.4038.pdf)
@@ -63,7 +63,7 @@ Find the file in WeChat for more details.
 
 - [ ] [DCGAN](https://github.com/pytorch/examples/tree/master/dcgan)
 
-:sparkles: Ruiqi Liu
+:sparkles: Ruiqi Li
 
 - [ ] [FCN](https://github.com/AishuaiYao/PyTorch/tree/master/FCN)
 
