@@ -71,6 +71,7 @@ Find the file in WeChat for more details.
 :sparkles: Zizhao Yuan
 
 - [ ] [DCGAN](https://github.com/pytorch/examples/tree/master/dcgan)
+- [ ] AnimeGANv2
 
 :sparkles: Ruiqi Li
 
