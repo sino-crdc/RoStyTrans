@@ -54,6 +54,7 @@ Find the file in WeChat for more details.
 - [x] [Fully convolutional networks for semantic segmentation](https://arxiv.org/pdf/1411.4038.pdf)
 - [ ] [Image Segmentation Using Deep Learning: A Survey](https://ieeexplore.ieee.org/document/9356353)
 - [ ] [COTR: Correspondence Transformer for Matching Across Images](https://arxiv.org/abs/2103.14167)
+- [ ] [Hyperpixel Flow: Semantic Correspondence with Multi-layer Neural Features](https://arxiv.org/abs/1908.06537)
 
 ### Code Learning
 
