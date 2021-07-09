@@ -33,6 +33,8 @@ Find the file in WeChat for more details.
 - [x] [TransGAN: Two Transformers Can Make One Strong GAN](https://arxiv.org/abs/2102.07074)
 - [x] [Deep Hough Transform for Semantic Line Detection](https://arxiv.org/abs/2003.04676)
 - [x] [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/abs/1812.04948)
+- [ ] [Ultrafast Photorealistic Style Transfer via Neural Architecture Search](https://arxiv.org/abs/1912.02398)
+- [ ] [Photorealistic Style Transfer via Wavelet Transforms](https://arxiv.org/abs/1903.09760)
 
 :sparkles: Yakun Hou
 
