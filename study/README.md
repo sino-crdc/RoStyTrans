@@ -26,8 +26,9 @@ Find the file in WeChat for more details.
 
 - [x] [Detecting Photoshopped Faces by Scripting Photoshop](https://arxiv.org/abs/1906.05856)
 - [x] [PSGAN: Pose and Expression Robust Spatial-Aware GAN for Customizable Makeup Transfer](https://arxiv.org/abs/1909.06956)
-- [ ] [Neural Style Transfer: A Review](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8732370) (without Ruiqi Li)
+- [x] [Neural Style Transfer: A Review](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8732370) (without Ruiqi Li)
 - [ ] [Towards Deep Style Transfer: A Content-Aware Perspective](http://www.bmva.org/bmvc/2016/papers/paper008/index.html)
+- [ ] [Filter Style Transfer between Photos](https://arxiv.org/abs/2007.07925)
 
 :sparkles: Zekun Wang
 
