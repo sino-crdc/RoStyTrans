@@ -63,6 +63,7 @@ Find the file in WeChat for more details.
 - [ ] [COTR: Correspondence Transformer for Matching Across Images](https://arxiv.org/abs/2103.14167)
 - [ ] [Hyperpixel Flow: Semantic Correspondence with Multi-layer Neural Features](https://arxiv.org/abs/1908.06537)
 - [ ] :sparkler: [Decoder Network over Lightweight Reconstructed Feature for Fast Semantic Style Transfer](https://ieeexplore.ieee.org/document/8237532)
+- [ ] [CoCosNet : Cross-domain Correspondence Learning for Exemplar-based Image Translation](https://panzhang0212.github.io/CoCosNet/)
 
 ### Code Learning
 
@@ -88,6 +89,7 @@ Find the file in WeChat for more details.
 - [ ] [FCN](https://github.com/AishuaiYao/PyTorch/tree/master/FCN)
 - [ ] COTR
 - [ ] Semantic GAN (given the paper :sparkler: which you have read, please provide an improved version of Semantic GAN)
+- [ ] [CoCosNet](https://panzhang0212.github.io/CoCosNet/)
 
 ### Code Practice
 to be continued...
