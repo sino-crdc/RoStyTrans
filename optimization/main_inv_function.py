@@ -15,24 +15,24 @@ import torch.optim
 from torch.utils.data import DataLoader
 
 from architecture.transformer_net import TransformerNet
-from data.data import get_training_set, get_test_set
+from data.data_util import get_training_set, get_test_set
 from criterion.loss_custom import MSEVarianceLoss
 
 
 def argument_parser():
     # Training settings
     parser = argparse.ArgumentParser(description='PyTorch Style to Original AutoEncoder')
-    parser.add_argument('--stylizedTrainDir', default='', type=str, metavar='PATH',
+    parser.add_argument('--stylizedTrainDir', default='/data/wangzekun/NST/test8/styleimage', type=str, metavar='PATH',
                         help='path to stylized image set for training.')
-    parser.add_argument('--orgTrainDir', default='', type=str, metavar='PATH',
+    parser.add_argument('--orgTrainDir', default='/data/wangzekun/NST/test8/targetimage', type=str, metavar='PATH',
                         help='path to original image set for training')
-    parser.add_argument('--stylizedTestDir', default='', type=str, metavar='PATH',
+    parser.add_argument('--stylizedTestDir', default='/data/wangzekun/NST/test8/styleimage', type=str, metavar='PATH',
                         help='path to stylized image set for testing.')
-    parser.add_argument('--orgTestDir', default='', type=str, metavar='PATH',
+    parser.add_argument('--orgTestDir', default='/data/wangzekun/NST/test8/targetimage', type=str, metavar='PATH',
                         help='path to original image set for testing')
-    parser.add_argument('--trainSetTxt', default='', type=str, metavar='PATH',
+    parser.add_argument('--trainSetTxt', default='/data/wangzekun/NST/test8/styleimagetxt.txt', type=str, metavar='PATH',
                         help='list of train images.')
-    parser.add_argument('--valSetTxt', default='', type=str, metavar='PATH',
+    parser.add_argument('--valSetTxt', default='/data/wangzekun/NST/test8/styleimagetxt.txt', type=str, metavar='PATH',
                         help='list of validation images.')
     parser.add_argument('-j', '--workers', default=4, type=int, metavar='N',
                         help='number of data loading workers (default: 4)')
@@ -52,7 +52,7 @@ def argument_parser():
                         help='Type of uncertainty as variance. [default, mcdrop, aleatoric].')
     parser.add_argument('--segmentation', dest='segmentation', action='store_true',
                         help='add segmentation branch')
-    parser.add_argument('--outputDir', default='', type=str, metavar='PATH',
+    parser.add_argument('--outputDir', default='/data/wangzekun/NST/test8/outputDir', type=str, metavar='PATH',
                         help='path to save trained model.')
 
     args = parser.parse_args()

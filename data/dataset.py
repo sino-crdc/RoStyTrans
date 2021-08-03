@@ -48,7 +48,7 @@ class DatasetFromTXT(data.Dataset):
         image_names = fp.readlines()
         fp.close()
 
-        COCO_HOME = '/f_data1/TrainingSets/coco/'
+        COCO_HOME = '/data/wangzekun/NST/test8/'
         if org_dir.find('train') > 0:
             panoptic_dir = join(COCO_HOME, 'annotations', 'panoptic_train2017_semantic_trainid_stff')
         else:
@@ -334,8 +334,8 @@ class DatasetFromTXT(data.Dataset):
 
 if __name__ == '__main__':
     # Sample code
-    DatasetFromTXT('/f_data1/TrainingSets/coco/images/val2017/',
-                   '/f_data1/TrainingSets/coco_stylized/images/val2017/',
-                   '/f_data1/TrainingSets/coco_stylized/images/val2017.txt', segmentation=True)
-    DatasetFromTXT('my_images/sample_dataset/train/org', 'my_images/sample_dataset/train/style',
-                   'my_images/sample_dataset/train/image_list.md')
+    DatasetFromTXT('/data/wangzekun/NST/test8/styleimage',
+                   '/data/wangzekun/NST/test8/styleimage',
+                   '/data/wangzekun/NST/test8/styleimagetxt.txt', segmentation=True)
+    DatasetFromTXT('/data/wangzekun/NST/test8/targetimage', '/data/wangzekun/NST/test8/targetimage',
+                   '/data/wangzekun/NST/test8/targetimage.md')
