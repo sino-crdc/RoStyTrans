@@ -1,0 +1,32 @@
+<!-- HTML -->
+<!-- <link rel="stylesheet" href="css/vendor/cssgram.min.css"> -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>
+    Image Filter Assignment
+  </title>
+  <link rel="stylesheet" href="cssgram.css">
+</head>
+
+<body>
+<figure id='000000000009.jpg' class='_1977' style="margin:0px">
+    <img src=./img/000000000025.jpg  alt="cannot display" >
+</figure>
+
+
+<script src="node_modules/dom-to-image/src/dom-to-image.js"></script>
+<script>
+  var node1 = document.getElementById('000000000009.jpg')
+  domtoimage.toJpeg(node1)
+    .then(function (dataUrl) {
+        var link = document.createElement('a');
+        link.download = '000000000009.jpg-1977.jpg';
+        link.href = dataUrl;
+        link.click();
+    });
+</script>
+
+</body>
+</html>
