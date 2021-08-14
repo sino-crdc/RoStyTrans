@@ -1,0 +1,45 @@
+var node1 = document.getElementById('000000000009.jpg')
+  domtoimage.toJpeg(node1)
+    .then(function (dataUrl) {
+        var link = document.createElement('a');
+        link.download = '000000000009.jpg-1977.jpg';
+        link.href = dataUrl;
+        link.click();
+    });
+
+var node2 = document.getElementById('000000000025.jpg')
+  domtoimage.toJpeg(node2)
+    .then(function (dataUrl) {
+        var link = document.createElement('a');
+        link.download = '000000000025.jpg-1977.jpg';
+        link.href = dataUrl;
+        link.click();
+    });
+
+var node3 = document.getElementById('000000000030.jpg')
+  domtoimage.toJpeg(node3)
+    .then(function (dataUrl) {
+        var link = document.createElement('a');
+        link.download = '000000000030.jpg-1977.jpg';
+        link.href = dataUrl;
+        link.click();
+    });
+
+var node4 = document.getElementById('000000000034.jpg')
+  domtoimage.toJpeg(node4)
+    .then(function (dataUrl) {
+        var link = document.createElement('a');
+        link.download = '000000000034.jpg-1977.jpg';
+        link.href = dataUrl;
+        link.click();
+    });
+
+var node5 = document.getElementById('img1.jpg')
+  domtoimage.toJpeg(node5)
+    .then(function (dataUrl) {
+        var link = document.createElement('a');
+        link.download = 'img1.jpg-1977.jpg';
+        link.href = dataUrl;
+        link.click();
+    });
+
